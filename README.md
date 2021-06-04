@@ -1,1 +1,0 @@
-# jeremyvoldeng.github.io
