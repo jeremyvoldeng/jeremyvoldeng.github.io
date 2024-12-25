@@ -1,48 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@200&display=swap');
-
 html {
-	height: 100%;
-	width: 70%;
+    height: 100%;
+    width: 70%;
 }
 
 body {
-  height: 85%;
-  width: 100%;
-  line-height: 1.5;
-  font-size: 20px;
-  color: #333;
-  background-color: #f0f0f0;
-	padding: 100px 100px 100px 100px;
+    height: 85%;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 100px 100px 100px 100px;
 }
 
 .name {
-  font-family: 'Lato', sans-serif;
-  font-size: 40px;
-	color: #000;
-  margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #000;
+    margin: 0;
 }
 
 .degree {
-	display: flex;
-  font-family: 'Lato', sans-serif;
-  font-size: 26px;
-	color: #000;
-  margin: 0;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    color: #000;
+    margin: 0;
 }
 
 .bio {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-	color: #000;
-  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
 }
 
 .experience {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
 }
 
 a:link {
-	color: #888;
+    color: #888;
+}
+
+.home-button {
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
 }

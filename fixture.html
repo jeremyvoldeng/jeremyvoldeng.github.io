@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<meta charset="UTF-8">
+
+<head>
+    <link rel='stylesheet' href='styles/css/main.css'>
+    <title> EXACT Flex Fixture </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 10px;
+            max-width: 1800px;
+        }
+        
+        .gallery img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html" class="home-button">Back</a>
+    <p class='name'>
+        EXACT Test Fixture
+    </p>
+    <p class="degree">
+        Bed of nails test fixture used for PCBA validation and data collection during production
+    </p>
+    </br>
+    </br>
+    <p class="bio">
+        This test fixture was used for testing the PCBAs used for <b><a href="flex.html">Flex </a></b> devices. I was responsible for writing the Python scripts to test all functionality on each board before it was used in production.
+        </br>
+        </br>
+        The Flex PCBA had an extensive list of features, including LTE, LoRa and Bluetooth connectivity, RTC, analog and 1W probe ports, and more. I developed a set of scripts capable of testing each individual feature on the board, assigning a unique ID to the
+        board after testing, and registering it to EXACT's online portal automatically and within a 2 minute time frame. The interface for the device had to be intuitive for production staff to use regularly, and extremely robust to ensure all failures
+        are captured at this stage of testing. I used TKinter for simple GUI display on a touch screen interface, with simple indicators for staff to see errors as they happen. All results were automatically uploaded to a Google Sheet, where data was
+        then extracted using AppSheet to generate visual data to easily see failure modes and overall success rates.
+        </br>
+    </p>
+    <p class="degree">
+        Gallery
+    </p>
+    <div class="gallery">
+        <img src="images/fixture/fixturedraft.png" alt="Image 2">
+        <img src="images/fixture/fixturegui.png" alt="Image 3">
+        <img src="images/fixture/fixture_component_locations.png" alt="Image 4">
+    </div>
+
+</body>
+
+</html>

@@ -4,64 +4,63 @@
 <meta charset="UTF-8">
 
 <head>
-	<link rel='stylesheet' href='styles/css/main.css'>
-	<title> EXACT Flex </title>
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel='stylesheet' href='styles/css/main.css'>
+    <title> EXACT Flex </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 10px;
+            max-width: 1800px;
+        }
+        
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
 </head>
 
 <body>
-	<p class='name'>
-		Jeremy Voldeng
-	</p>
-	<p class="degree">
-		Engineering Physics, UBC 2021
-	</p>
-	</br>
- </br>
-	<p class="bio">
-		Hands on designer and engineer with a background in mechatronics and applied physics. Passionate about leveraging my wide range of electrical, mechanical and software
-        experience to design functional and aesthetic products that deliver meaningful results. Motivated self-starter that thrives in a collaborative team environments.
-		</br>
-		</br>
-		</br>
-        >Since June 2022, I have owned the mechanical design for multiple products at EXACT Technology. See details on a handful of products I have had a hand in developing below.
-        <ul>
-            <li>EXACT Flex | Sophisticated, Ruggedized Temperature Monitor</li>
-            <li>EXACT Match 3 | Real-time Curing Chamber for concrete cylinders</li>
-            <li>EXACT Tag | RFID/NFC Card Embedded in Concrete for High Volume On-Site Tracking</li>
-            <li><b><a href="flex.html">Flex Test Fixture</a></b>  | Bed of nails test fixture used for PCBA validation and data collection during production</li>
-        </ul>
+    <a href="index.html" class="home-button">Back</a>
+    <p class='name'>
+        EXACT Flex
+    </p>
+    <p class="degree">
+        Sophisticated, Ruggedized Temperature Monitoring for the Concrete Industry
+    </p>
+    <img src="images/flex/flex-render.png" alt="Image 1" style="width: 800px;">
+    </br>
+    <p class="bio">
+        Flex is a durable and versatile temperature monitoring device for use in the concrete industry. The device accepts up to 4 temperature sensors, and measures temperature on a preset interval. On the quarter hour, the device uploads data to the cloud for
+        clients to view on our online portal.
+        </br>
+        </br>
+        As the sole mechanical designer on the project, I was responsible for the entire design and physical validation testing of the product. My solution was a 3 piece injection molded shell with custom designed connectors and a miriad of mounting features.
+        The PCBA is contained inside a secondary shell within the device, which allowed the device to be sealed using potting compound but still allowing for PCBA recovery in the rare case of failure. Due to the custom EPDM gasket and partial potting,
+        the device is fully waterproof and extremely durable, a neccessity in the concrete industry. During design, I performed drop tests, waterproof tests and thermal cycling. I also assisted in preparing our in-house production team for assembly, and
+        the eventual hand-off to a contract manufacturer.
+        </br>
+        </br>
+        <p class="experience">
 
-
-		>In 2018 I worked at <b><a href="http://logicandform.com/">Logic & Form</a></b> as a Creative Software
-		Developer
-		for 4 months. We developed <b><a href="http://logicandform.com/work/interactive-wall/">this</a></b>
-		interactive display.
-		</br>
-		</br>
-		>I built an autonomous robot in a team of four people during the summer of 2018. See
-		<b><a href="https://robotjoel2018.wordpress.com/">here</a></b>.
-		</br>
-		</br>
-		>Design Engineer on a team of 3 for Snow Spines Inc. from July 2021 to March 2022. Developed an initial prototype of an electronic
-		assist for mountaineering and cross country skiing.
-		</br>
-		</br>
-		>I developed an <b><a href="https://pictureswithbricks.com/">app</a></b> that creates Lego
-		portraits from any image, and generates an instruction booklet for building.
-		</br>
-		</br>
-		>In the school year of 2020-2021 I worked with a team of 4 to develop a deGuassing system for
-		<b><a href="https://www.dwavesys.com/">D-Wave</a></b> that removed remnate magnetization from
-		PCBs used in a quantum processor.
-		</br>
-		</br>
-		See my <b><a href="http://jeremyvoldeng.github.io/Resume.pdf">resume</a></b> for more information.
-	</p>
-	<p class="experience">
-
-	</p>
-
+        </p>
+        <p class="degree">
+            Gallery
+        </p>
+        <div class="gallery">
+            <img src="images/flex/flex-open-cad.png" alt="Image 2">
+            <img src="images/flex/flex-probe-render.png" alt="Image 3">
+            <img src="images/flex/flex1.jpg" alt="Image 4">
+            <img src="images/flex/FLEX-humidity.png" alt="Image 5">
+            <img src="images/flex/flex-lid-cad.png" alt="Image 6">
+            <img src="images/flex/panel_mount_1.png" alt="Image 6">
+        </div>
 </body>
-
-</html>
